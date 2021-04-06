@@ -10,3 +10,4 @@ In the field of image processing, a common problem is determining how to display
 Using k-means, combinations of colors can be quantized into a certain number of levels. This works well because the human eye can't perceive the full color spectrum. In the context of k-means, these quantized color levels would be the centroids. For each pixel, the closest centroid is determined by treating each pixel as a vector of <r,g,b> and using the distance formula to find the distance between the pixel and each centroid. The algorithm assigns each centroid a color value that represents the average of all the pixels that were closest to that centroid.
 
 # The images below show the result of using k-means to quantize a color image :
+![oc_color_quantization](https://user-images.githubusercontent.com/68145022/113671212-b098c580-96d3-11eb-9b4f-b0258d239a50.jpg)
